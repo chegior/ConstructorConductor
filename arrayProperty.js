@@ -9,12 +9,12 @@
     var string = this;
     var arr = [];
     var newArr = [];
-    arr = string.split(' ');
+    arr = string.split('');
     //console.log('arr', arr);
-    for( var i = arr.length-1; i > 0; i--){
+    for( var i = arr.length-1; i >= 0; i--){
       newArr.push(arr[i]);
     }
-    string = newArr.join(' ');
+    string = newArr.join('');
     return string;
   }
 
